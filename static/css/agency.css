@@ -322,7 +322,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0; 
+    padding: 100px 0;
 }
 
 
@@ -1013,6 +1013,10 @@ section#contact {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0px;
+}
+
+.main-content {
+    padding-top: 90px;
 }
 
 .data-layer{
