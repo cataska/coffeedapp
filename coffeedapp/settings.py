@@ -108,7 +108,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = 'static'
 
 TEMPLATE_DIRS = (
     os.path.join(MAIN_DIR, 'templates'),
@@ -117,6 +116,8 @@ TEMPLATE_DIRS = (
 STATICFILES_DIRS = (
     os.path.join(MAIN_DIR, 'static'),
 )
+
+STATIC_ROOT = 'static'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 AWS_S3_FORCE_HTTP_URL = True
